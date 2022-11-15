@@ -8,7 +8,7 @@ function Entry() {
     if (loggedin && loggedin == true) {
         navigate("/products")
      }else{
-        navigate("/login")
+        navigate("/signup")
      }
   }, [loggedin])
   
